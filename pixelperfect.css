@@ -1,0 +1,104 @@
+* {box-sizing: border-box; }
+header, nav, main footer {display: block; }
+body { 
+    background-color: #FFB6C1;
+    color: #221811;
+    font-family: Times New Roman, Helvetica, Arial, sans-serif;
+    background-image: url(pixelbackground.jpg);
+}
+
+Header {text-align: center;
+    background-image: url(pixelbackground.png);
+       height: 100px;
+    font-size: 30pt;
+    font-family: Helvetica, Times New Roman, Ariel, sans-serif;
+        
+        }
+#pixelbackground1 { background-image: url(brick.png); 
+           background-size: 100% 100%;
+		   height: 250px;}
+#coin { background-image: url(pixel.png); 
+           background-size: 100% 100%;
+    height: 250px;
+    } 
+
+h2 { background-color:coral ;
+    padding-top: 40px;
+
+    font-size: 3em;
+    text-align: center;
+        font-family: Helvetica, Ariel, sans-serif;
+}
+#graphic { width: 80%;
+            margin-right: auto;
+            margin-left: auto;
+            background-color:aliceblue;
+            min-width: 900px;
+            max-width: 1280px;
+            box-shadow: 3px 3px 3px #666666}
+
+#mobile {display: none;}
+#desktop {display: in-line;}
+
+main {padding 0 0 2em 0;
+        margin-right:100px;
+        margin-left: 100px;
+         }
+div {padding 0 0 2em 0;
+        margin-right:100px;
+        margin-left: 100px;
+        text-align: center;
+        font-size: 16pt;}
+#imagestyle {
+    
+}
+
+nav a{ align-content: center;
+    text-decoration: none;
+        display: block;
+        
+        padding-right: 40px;
+	  background-color:darksalmon;
+	  border-bottom: 1px solid #ffffff;
+	  }
+nav a:link { color:black; }
+nav a:visited { color:black; }
+nav a:hover { color: #666666; }
+main li {display: inline-block;
+        width: 225px;
+        padding-bottom: 10px;
+        margin: 10px;
+        background-color:antiquewhite;
+        text-align: center;
+        font-style: strong;
+        font-family: Helvetica, serif, ariel;}
+
+@media only screen and (max-width: 1024px){
+    body {margin-right: -190px;}
+    #graphic {
+            min-width: 0px;
+            margin: 0px;
+            padding: 0px;
+        box-shadow: none;}
+    header{
+        border-bottom: 5px solid #666666;}
+    h1{margin-top: 0px;
+        margin-bottom: 1em;
+        
+        font-size: 2em;}
+    nav{float: none;
+        width: auto;
+        padding-top: 0px;
+        margin: 10px;
+        font-size: 1.3em;}
+    navli {display: inline-block;}
+    
+    nav ul {padding: 0px;
+            margin: 0px;}
+    #pixelbackground1 {margin: 0px; padding: 0px;}
+    #coin {margin: 0px; padding: 0px}
+    main {margin: 0px; font-size: 90%}
+        
+    }
+    }
+}
